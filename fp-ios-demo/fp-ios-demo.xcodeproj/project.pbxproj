@@ -8,23 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CF2DF4C3228E8E4A0086C8FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DF4C2228E8E4A0086C8FF /* AppDelegate.m */; };
-		CF2DF4C6228E8E4A0086C8FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DF4C5228E8E4A0086C8FF /* ViewController.m */; };
 		CF2DF4C9228E8E4A0086C8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2DF4C7228E8E4A0086C8FF /* Main.storyboard */; };
 		CF2DF4CC228E8E4A0086C8FF /* fp_ios_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF2DF4CA228E8E4A0086C8FF /* fp_ios_demo.xcdatamodeld */; };
 		CF2DF4CE228E8E4B0086C8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2DF4CD228E8E4B0086C8FF /* Assets.xcassets */; };
 		CF2DF4D1228E8E4B0086C8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2DF4CF228E8E4B0086C8FF /* LaunchScreen.storyboard */; };
 		CF2DF4D4228E8E4B0086C8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DF4D3228E8E4B0086C8FF /* main.m */; };
 		CF2DF4DE228E8F7E0086C8FF /* FastProgramSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2DF4DD228E8F7E0086C8FF /* FastProgramSDK.framework */; };
-		CF2DF4E1228E8FE80086C8FF /* MyDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2DF4E0228E8FE80086C8FF /* MyDelegateImpl.m */; };
 		CF2DF4E7228EB5E20086C8FF /* FP_Resouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF2DF4E6228EB5E20086C8FF /* FP_Resouce.bundle */; };
+		CF9B412C228FBBCD00F40CDC /* FPMyDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9B412B228FBBCD00F40CDC /* FPMyDelegateImpl.m */; };
+		CF9B412F228FBBFF00F40CDC /* FPMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9B412E228FBBFF00F40CDC /* FPMyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF2DF4BE228E8E4A0086C8FF /* fp-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fp-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2DF4C1228E8E4A0086C8FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF2DF4C2228E8E4A0086C8FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF2DF4C4228E8E4A0086C8FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF2DF4C5228E8E4A0086C8FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF2DF4C8228E8E4A0086C8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF2DF4CB228E8E4A0086C8FF /* fp_ios_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fp_ios_demo.xcdatamodel; sourceTree = "<group>"; };
 		CF2DF4CD228E8E4B0086C8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,9 +30,11 @@
 		CF2DF4D2228E8E4B0086C8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2DF4D3228E8E4B0086C8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF2DF4DD228E8F7E0086C8FF /* FastProgramSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastProgramSDK.framework; sourceTree = "<group>"; };
-		CF2DF4DF228E8FE80086C8FF /* MyDelegateImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDelegateImpl.h; sourceTree = "<group>"; };
-		CF2DF4E0228E8FE80086C8FF /* MyDelegateImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDelegateImpl.m; sourceTree = "<group>"; };
 		CF2DF4E6228EB5E20086C8FF /* FP_Resouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FP_Resouce.bundle; sourceTree = "<group>"; };
+		CF9B412A228FBBCD00F40CDC /* FPMyDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMyDelegateImpl.h; sourceTree = "<group>"; };
+		CF9B412B228FBBCD00F40CDC /* FPMyDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMyDelegateImpl.m; sourceTree = "<group>"; };
+		CF9B412D228FBBFF00F40CDC /* FPMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMyViewController.h; sourceTree = "<group>"; };
+		CF9B412E228FBBFF00F40CDC /* FPMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,16 +72,16 @@
 				CF2DF4E6228EB5E20086C8FF /* FP_Resouce.bundle */,
 				CF2DF4C1228E8E4A0086C8FF /* AppDelegate.h */,
 				CF2DF4C2228E8E4A0086C8FF /* AppDelegate.m */,
-				CF2DF4C4228E8E4A0086C8FF /* ViewController.h */,
-				CF2DF4C5228E8E4A0086C8FF /* ViewController.m */,
 				CF2DF4C7228E8E4A0086C8FF /* Main.storyboard */,
 				CF2DF4CD228E8E4B0086C8FF /* Assets.xcassets */,
 				CF2DF4CF228E8E4B0086C8FF /* LaunchScreen.storyboard */,
 				CF2DF4D2228E8E4B0086C8FF /* Info.plist */,
 				CF2DF4D3228E8E4B0086C8FF /* main.m */,
 				CF2DF4CA228E8E4A0086C8FF /* fp_ios_demo.xcdatamodeld */,
-				CF2DF4DF228E8FE80086C8FF /* MyDelegateImpl.h */,
-				CF2DF4E0228E8FE80086C8FF /* MyDelegateImpl.m */,
+				CF9B412A228FBBCD00F40CDC /* FPMyDelegateImpl.h */,
+				CF9B412B228FBBCD00F40CDC /* FPMyDelegateImpl.m */,
+				CF9B412D228FBBFF00F40CDC /* FPMyViewController.h */,
+				CF9B412E228FBBFF00F40CDC /* FPMyViewController.m */,
 			);
 			path = "fp-ios-demo";
 			sourceTree = "<group>";
@@ -120,6 +120,7 @@
 		CF2DF4B6228E8E4A0086C8FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FP;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = dfzq;
 				TargetAttributes = {
@@ -166,10 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2DF4CC228E8E4A0086C8FF /* fp_ios_demo.xcdatamodeld in Sources */,
-				CF2DF4C6228E8E4A0086C8FF /* ViewController.m in Sources */,
-				CF2DF4E1228E8FE80086C8FF /* MyDelegateImpl.m in Sources */,
+				CF9B412F228FBBFF00F40CDC /* FPMyViewController.m in Sources */,
 				CF2DF4D4228E8E4B0086C8FF /* main.m in Sources */,
 				CF2DF4C3228E8E4A0086C8FF /* AppDelegate.m in Sources */,
+				CF9B412C228FBBCD00F40CDC /* FPMyDelegateImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

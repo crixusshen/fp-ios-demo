@@ -7,13 +7,13 @@
 //
 #import <FastProgramSDK/FastProgramSDK.h>
 
-#import "ViewController.h"
-#import "MyDelegateImpl.h"
+#import "FPMyViewController.h"
+#import "FPMyDelegateImpl.h"
 
-@interface ViewController ()
+@interface FPMyViewController ()
 
 @property (nonatomic, strong) FPAssetsImpl* asset;
-@property (nonatomic, strong) MyDelegateImpl* delegateImpl;
+@property (nonatomic, strong) FPMyDelegateImpl* delegateImpl;
 @property (nonatomic, strong) FPMPViewNavController* saveTaskVc;
 
 @end
@@ -21,7 +21,7 @@
 // FPID由发布平台颁发，代表每个单一业务和快程序应用程序的唯一标识
 NSString *const FPID = @"9f88a36b-a197-41fb-893d-32a10b4da8d7";
 
-@implementation ViewController
+@implementation FPMyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,7 +48,7 @@ NSString *const FPID = @"9f88a36b-a197-41fb-893d-32a10b4da8d7";
     
     if (_saveTaskVc == nil) {
         _asset = [[FPAssetsImpl alloc] initWithFPId:FPID];
-        _delegateImpl = [[MyDelegateImpl alloc] init];
+        _delegateImpl = [[FPMyDelegateImpl alloc] init];
         FPMPViewNavController* vc = [FPMPViewNavController alloc];
         vc = [vc init:_asset delegate:_delegateImpl];
         
@@ -69,7 +69,7 @@ NSString *const FPID = @"9f88a36b-a197-41fb-893d-32a10b4da8d7";
     NSLog(@"to View SamlpeB ...");
     
     _asset = [[FPAssetsImpl alloc] initWithFPId:FPID];
-    _delegateImpl = [[MyDelegateImpl alloc] init];
+    _delegateImpl = [[FPMyDelegateImpl alloc] init];
     FPMPViewNavController* vc = [FPMPViewNavController alloc];
     vc = [vc init:_asset delegate:_delegateImpl];
     

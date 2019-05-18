@@ -6,15 +6,15 @@
 //  Copyright © 2019 dfzq. All rights reserved.
 //
 
-#import "MyDelegateImpl.h"
+#import "FPMyDelegateImpl.h"
 
-@interface MyDelegateImpl()
+@interface FPMyDelegateImpl()
 
 @property (nonatomic, strong) FPLoadingViewImpl* loadingView;
 
 @end
 
-@implementation MyDelegateImpl
+@implementation FPMyDelegateImpl
 
 // loading animation
 -(UIView*) buildLoadingAnimationView:(FPMPViewController*)vc{
