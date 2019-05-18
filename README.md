@@ -1,3 +1,3 @@
 # fp-ios-demo
 
-one ios demo by FastProgram Framework.
+a ios demo by FastProgram Framework.
